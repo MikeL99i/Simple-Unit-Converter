@@ -1,13 +1,13 @@
 // variable declaration
 // UserInput
-let inputEl = document.getElementById("user-input")
+const inputEl = document.getElementById("user-input")
 let inputString = inputEl.value
 console.log(inputString)
 
 // Converting Units
-let lengthEl = document.getElementById("length-el");
-let volumeEl = document.getElementById("volume-el");
-let massEl = document.getElementById("mass-el");
+const lengthEl = document.getElementById("length-el");
+const volumeEl = document.getElementById("volume-el");
+const massEl = document.getElementById("mass-el");
 
 // Conversion funtions
 // Length function convert meter/feet
